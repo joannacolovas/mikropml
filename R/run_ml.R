@@ -199,8 +199,8 @@ run_ml <-
         )
       )
     }
-    check_training_frac(training_frac)
-    check_training_indices(training_inds, dataset)
+    #check_training_frac(training_frac)
+    #check_training_indices(training_inds, dataset)
 
     train_data <- dataset[training_inds, ]
     test_data <- dataset[-training_inds, ]
